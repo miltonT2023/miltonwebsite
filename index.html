@@ -51,6 +51,10 @@
             margin: 20px auto;
             max-width: 100%;
         }
+
+        .project-summary {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -64,22 +68,48 @@
     <section>
         <h2>About Me</h2>
         <p>
-              Welcome to my personal website! I am a passionate computer engineering student at San Francisco State University with a keen interest in machine learning and embedded systems.
+            Welcome to my personal website! I am a passionate computer engineering student with a keen interest in [your interests].
         </p>
 
         <h2>Projects</h2>
-        <p>
-            Here are some of the projects I have worked on:
-            <ul>
-                <li>Project 1 - [Description]</li>
-                <video controls>
-                    <source src="projectimages/project1video.mov" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <li>Project 2 - [Description]</li>
-                <!-- Add more projects as needed -->
-            </ul>
-        </p>
+        <p>Here are some of the projects I have worked on:</p>
+        <ul>
+            <li>
+                <h3>Project 1: Solar Tracking System</h3>
+                <p><strong>Authors:</strong> Milton Tinoco, Ethan Weldon, Michael Cabrera</p>
+                <p><strong>Contact:</strong> mtinocomarin@sfsu.edu, eweldon@sfsu.edu, mcabrera14@sfsu.edu</p>
+                <p>
+                    <strong>Introduction:</strong> This project involves the creation of a solar tracking system designed for small-scale indoor settings. It uses the STM32L476RG microcontroller to adjust the orientation of solar panels, maximizing sunlight exposure. The system is intended for residential and office environments, offering a cost-effective and simple solution for solar tracking.
+                </p>
+                <p>
+                    <strong>Background:</strong> Solar energy is a key solution to global warming, providing clean and sustainable electricity. Our research focuses on creating a small-scale solar tracker that is affordable and easy to implement, unlike most existing trackers designed for large installations.
+                </p>
+                <p>
+                    <strong>Hardware Design:</strong> The system uses affordable and lightweight materials such as the STM32L476RG microcontroller, photoresistors, and SG90 Micro Servo Motors. The structure is built using popsicle sticks and secured with super glue and duct tape.
+                </p>
+                <p>
+                    <strong>Software Implementation:</strong> The software integrates various elements like timers, interrupts, and ADC functionalities. It allows the system to auto-adjust based on light intensity or manual user input via a serial terminal.
+                </p>
+                <p>
+                    <strong>Experiment:</strong> The system was tested for ADC readings from photoresistors under different light conditions, and the servo motors were calibrated for accurate rotation. The USART interface was also tested for reliable user input and control.
+                </p>
+                <p>
+                    <strong>Results and Discussion:</strong> The system effectively met the design criteria, providing accurate light measurement and motor adjustment. It demonstrated robust performance in different light conditions and responded well to user commands.
+                </p>
+                <p>
+                    <strong>Conclusion:</strong> Our solar tracking system successfully integrates hardware and software components to maximize solar energy capture in small-scale environments. The project highlights the potential of embedded systems in solar tracking applications and offers a scalable, cost-effective solution.
+                </p>
+                <p>
+                    <strong>Future Work:</strong> Future iterations will focus on enhancing the system's durability for outdoor use, incorporating solar panels and batteries for sustainable power, and improving rotation smoothness with better components.
+                </p>
+            </li>
+            <video controls>
+                <source src="projectimages/project1video.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <li>Project 2 - [Description]</li>
+            <!-- Add more projects as needed -->
+        </ul>
 
         <h2>Contact</h2>
         <p>
